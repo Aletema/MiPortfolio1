@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: ' IBM+Plex+Sans', sans-serif;
+}
+.rotateMe {
+  -webkit-transition: -webkit-transform 1s ease-out;
+  -moz-transition: -moz-transform 1s ease-out;
+  transition: transform 1s ease-out;
+ }
+ .rotateMe:hover {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  transform: rotate(360deg);
+ }
+.pequeña {
+  width: 50px;
+  height: 50px;
+}
+
+.invertir {
+  filter: invert(100%);
+}
+
+.centrar {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+}
+
+/*Inicio media query*/
+@media screen and (max-width: 425px) {
+  .centrar {
+    max-width: 250px;
+    max-height: 250px;
+  }
+
+  .pequeña {
+    width: 20px;
+    height: 20px;
+  }
+
+  .pequeña1 {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/*Fin media query*/
+.negro {
+  background-color: #000000;
+  padding-top: 50px;
+}
+
+.titulo {
+  color: #00A450;
+  display: flex;
+  justify-content: center;
+}
+
+.negro :hover {
+
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  box-shadow: 0px 0px 15px 15px #00A450;
+  -webkit-box-shadow: 0px 0px 15px 15px #00A450;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
+
+.media {
+  width: 250px;
+  height: 250px;
+
+}
+
+div.noticia {
+  width: 100%;
+  margin: 20px auto;
+  background-color: black;
+  color: #fff;
+  padding: 15px;
+  border: 10px solid #00A450;
+}
+
+div.noticia img.izquierda {
+  float: left;
+  margin-right: 100px;
+}
+
+div.noticia img.derecha {
+  float: right;
+  margin-left: 15px;
+}
+
+div.reset {
+  clear: both;
+}
+
+.animated {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes flash {
+
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+.flash {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+}
