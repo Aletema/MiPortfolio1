@@ -81,6 +81,8 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
     justify-content: center;
+    grid-column-gap: 020px;
+grid-row-gap: 020px;
     }
     
     .div1 { grid-area: 1 / 1 / 2 / 2; }
