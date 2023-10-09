@@ -14,7 +14,7 @@ body {
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-    font-size: small;
+    font-size:medium;
 }
 
 
@@ -91,10 +91,12 @@ body {
     max-width: 250px;
     max-height: 250px;
   }
-
+body {
+  font-size: medium;
+}
   .pequeña {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
   }
 
   .pequeña1 {
@@ -144,6 +146,9 @@ body {
     grid-template-rows: repeat(3, 1fr);
     justify-content: center;
 
+  }
+  body {
+    font-size: medium;
   }
 
   .div1 {
