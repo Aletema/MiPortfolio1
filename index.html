@@ -2,156 +2,182 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!--link boosrtrap header-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--link boosrtrap header-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-  <!--Link de css-->
-  <link rel="stylesheet" href="./estilo.css">
+    <!--Link de css-->
+    <link rel="stylesheet" href="/estyles.css">
 
-  <!--Link de fonts-->
-  <enlace rel="preconectar" href="https://fonts.googleapis.com">
-    <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
-      <enlace
-        href="https: //fonts.googleapis.com/css2? family= IBM+Plex+Sans:ital,wght@0,400;0,500;1,400 & display=swap"
-        rel="hoja de estilo">
+    <!--Link de fonts-->
+    <!-- Importar la fuente "Inter" desde Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-        <title>Mi Portfolio-Alexis Trejo</title>
+
+                <title>Mi Portfolio-Alexis Trejo</title>
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GSBGPGHY1N"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-GSBGPGHY1N');
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-GSBGPGHY1N');
 </script>
+
 <body>
-  <!--Inicio Header-->
+    <!--Inicio Header-->
 
-  <nav class="navbar navbar-dark bg-dark fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><img class="pequeña pequeña1" src="./image/Logo_alexis .png"
-          alt="logo del sitio"></a>
-      <li> <a href="https://m.facebook.com/people/Alexis-Trejo/100009315064882/" target="_blank"> <img
-            class="pequeña invertir rotateMe" src="./image/facebook-logo-icon.png" class="image-fluid"
-            alt="link facebook"></a>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img class="pequeña pequeña1" src="./image/Logo_alexis .png"
+                    alt="logo del sitio"></a>
+            <li> <a href="https://m.facebook.com/people/Alexis-Trejo/100009315064882/" target="_blank"> <img
+                        class="pequeña invertir rotateMe" src="./image/facebook-logo-icon.png" class="image-fluid"
+                        alt="link facebook"></a>
 
-      </li>
-      <li> <a href="#"><img class="pequeña rotateMe" src="./image/-instagramicon.png" class="image-fluid"
-            alt="link instagram"></a>
+            </li>
+            <li> <a href="#"><img class="pequeña rotateMe" src="./image/-instagramicon.png" class="image-fluid"
+                        alt="link instagram"></a>
 
-      </li>
-      <li> <a href="linkedin.com/in/alexis-trejo-085880272"><img class="pequeña invertir rotateMe"
-            src="./image/logo-linkedin.png" class="image-fluid" alt="link linkedin"></a>
+            </li>
+            <li> <a href="linkedin.com/in/alexis-trejo-085880272"><img class="pequeña invertir rotateMe"
+                        src="./image/logo-linkedin.png" class="image-fluid" alt="link linkedin"></a>
 
-      </li>
+            </li>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
-        aria-controls="offcanvasDarkNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
-        aria-labelledby="offcanvasDarkNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Mi Menu</h5>
-          <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas"
-            aria-label="Close"></button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Mi Menu</h5>
+                    <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active text-dark" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="./pages/sobremi.html">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="./pages/portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="./pages/contacto.html">Contacto</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link active text-dark" aria-current="page" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="./pages/sobre.html">Sobre</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="./pages/portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="./pages/contacto.html">Contacto</a>
-            </li>
-
-          </ul>
-          <form class="d-flex mt-3" role="search">
-            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="search">
-            <button class="btn btn-success" type="submit">Buscar</button>
-          </form>
+    </nav>
+    <!--Fin Header-->
+    <!--Inicio Main-->
+    <main>
+        <div class="negro">
+            <img class="centrar image-fluid" src="./image/imagen_inicio.png" alt="imagen de presentacion">
         </div>
-      </div>
-    </div>
-  </nav>
-  <!--Fin Header-->
-  <!--Inicio Main-->
-  <main>
-    <div class="negro">
-      <img class="centrar image-fluid" src="./image/imagen_inicio.png" alt="imagen de presentacion">
-    </div>
 
-    <div class="noticia animated flash">
-      <img src="./image/IMG_20221115_193231_355.jpg" class="media image-fluid izquierda" alt="foto de perfil">
-      <aside>
-        <h1>Mis Datos</h1>
-        <li> <strong> NOMBRE COMPLETO: </strong>Alexis Emanuel Trejo</li>
-        <li> <strong>LOCALIDAD:</strong> General Roca Rio Negro</li>
-        <li> <strong>MAIL DE CONTACTO: </strong> alexisemanueltrejo@gmail.com</li>
-        <li> <strong>CELULAR: </strong> 2984 - 631588</li>
-        <li> <strong> EDAD: </strong>38</li>
-        <li> <strong>FECHA DE NACIMIENTO: </strong> 10 de Febrero de 1984</li>
-        <a href="./pages/sobre.html"><button type="button" class="btn btn-success">Ver Mas</button></a>
-      </aside>
-      <div class="reset"></div>
-    </div>
-  </main>
-  <!--Fin Main-->
+        <div class="noticia animated flash">
+            <img src="./image/IMG_20221115_193231_355.jpg" class="media image-fluid izquierda" alt="foto de perfil">
+            <aside>
+                <h1>Mis Datos</h1>
+                <ul>
+                    <li><strong>NOMBRE COMPLETO:</strong> Alexis Emanuel Trejo</li>
+                    <li><strong>LOCALIDAD:</strong> General Roca, Río Negro</li>
+                    <li><strong>MAIL DE CONTACTO:</strong> alexisemanueltrejo@gmail.com</li>
+                    <li><strong>CELULAR:</strong> 2984 - 631588</li>
+                    <li><strong>EDAD:</strong> <span id="edad"></span></li> <!-- Edad dinámica -->
+                    <li><strong>FECHA DE NACIMIENTO:</strong> 10 de Febrero de 1984</li>
+                </ul>
+                <a href="./pages/sobremi.html"><button type="button" class="btn btn-success">Ver Más</button></a>
+            </aside>
+            <div class="reset"></div>
+        </div>
+        <!-- ----------------------------Script para calcular edad------------------------------->
+        <script>
+            function calcularEdad(fechaNacimiento) {
+                const hoy = new Date();
+                const nacimiento = new Date(fechaNacimiento);
+                let edad = hoy.getFullYear() - nacimiento.getFullYear();
 
-  <!--Inicio Footer-->
-  <footer class="bg-dark text-center text-white">
-    <!-- Grid container -->
-    <div class="container p-4 pb-0">
-      <!-- Section: Social media -->
-      <section class="mb-4">
-        <!-- Facebook -->
-        <a class="" href="https://m.facebook.com/people/Alexis-Trejo/100009315064882/" target="_blank"
-          role="button"><img class="pequeña invertir rotateMe" src="./image/facebook-logo-icon.png" class="image-fluid"
-            alt="link facebook"></a>
+                // Ajustar si aún no ha pasado el cumpleaños en el año actual
+                const mesActual = hoy.getMonth();
+                const diaActual = hoy.getDate();
+                const mesNacimiento = nacimiento.getMonth();
+                const diaNacimiento = nacimiento.getDate();
 
-        <!-- Instagram -->
-        <a class="" href="#!" role="button"><img class="pequeña rotateMe pequeña2" src="./image/-instagramicon.png"
-            class="image-fluid" alt="link instagram"></a>
+                if (mesActual < mesNacimiento || (mesActual === mesNacimiento && diaActual < diaNacimiento)) {
+                    edad--;
+                }
+
+                return edad;
+            }
+
+            // Insertar edad en el HTML
+            document.getElementById("edad").textContent = calcularEdad("1984-02-10");
+        </script>
+
+    </main>
+    <!--Fin Main-->
+
+    <!--Inicio Footer-->
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="" href="https://m.facebook.com/people/Alexis-Trejo/100009315064882/" target="_blank"
+                    role="button"><img class="pequeña invertir rotateMe" src="./image/facebook-logo-icon.png"
+                        class="image-fluid" alt="link facebook"></a>
+
+                <!-- Instagram -->
+                <a class="" href="#!" role="button"><img class="pequeña rotateMe pequeña2"
+                        src="./image/-instagramicon.png" class="image-fluid" alt="link instagram"></a>
 
 
-        <!-- Linkedin -->
-        <a class="" href="#!" target="_blank" role="button"><img class="pequeña invertir rotateMe pequeña2"
-            src="./image/logo-linkedin.png" class="image-fluid" alt="link linkedin"></a>
+                <!-- Linkedin -->
+                <a class="" href="#!" target="_blank" role="button"><img class="pequeña invertir rotateMe pequeña2"
+                        src="./image/logo-linkedin.png" class="image-fluid" alt="link linkedin"></a>
 
-        <!-- Github -->
-        <a class="" href="https://github.com/Aletema/MiPortfolio1.git" target="_blank" role="button"><img
-            class="pequeña invertir rotateMe pequeña2" src="./image/github-logo.png" class="image-fluid"
-            alt="link linkedin"></a>
-      </section>
-      <!-- Section: Social media -->
-    </div>
-    <!-- Grid container -->
+                <!-- Github -->
+                <a class="" href="https://github.com/Aletema/MiPortfolio1.git" target="_blank" role="button"><img
+                        class="pequeña invertir rotateMe pequeña2" src="./image/github-logo.png" class="image-fluid"
+                        alt="link linkedin"></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
 
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
 
-      <a class="text-white" href="index.html"><img class="pequeña pequeña1" title="Arriba"
-          src="./image/Logo_alexis .png" </a> </div> <!-- Copyright -->
-  </footer>
-  <!--Fin Footer-->
+            <a class="text-white" href="index.html"><img class="pequeña pequeña1" title="Arriba"
+                    src="./image/Logo_alexis .png" </a> </div> <!-- Copyright -->
+    </footer>
+    <!--Fin Footer-->
 
-  <!--link boosrtrap footer-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-  </script>
+    <!--link boosrtrap footer-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 
 </body>
 

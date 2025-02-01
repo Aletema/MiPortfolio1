@@ -4,21 +4,9 @@
 }
 
 body {
-  font-family: 'Bicubik';
-    src: url('Bicubik.eot');
-    src: local('Bicubik'),
-        url('Bicubik.eot?#iefix') format('embedded-opentype'),
-        url('Bicubik.woff2') format('woff2'),
-        url('Bicubik.woff') format('woff'),
-        url('Bicubik.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-    font-size:medium;
+  font-family: 'Inter', sans-serif;
+
 }
-
-
-
 
 .rotateMe {
   -webkit-transition: -webkit-transform 1s ease-out;
@@ -91,9 +79,11 @@ body {
     max-width: 250px;
     max-height: 250px;
   }
-body {
-  font-size: medium;
-}
+
+  body {
+    font-size: medium;
+  }
+
   .pequeña {
     width: 30px;
     height: 30px;
@@ -147,6 +137,7 @@ body {
     justify-content: center;
 
   }
+
   body {
     font-size: medium;
   }
